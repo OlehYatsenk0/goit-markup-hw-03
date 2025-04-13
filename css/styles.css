@@ -136,6 +136,10 @@ display: block;
 
 /* #endregion address */
 /* #region main Effective Solutions */
+.introduction-container {
+    display: block;
+    align-items: center;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -147,11 +151,8 @@ display: block;
     white-space: nowrap;
     border: 0;
 }
-.introduction-container {
-    display: block;
-    align-items: center;
-}
-introduction {
+
+.introduction {
     padding: 120px 0;
     background-color: #2e2f42;
     align-items: center;
