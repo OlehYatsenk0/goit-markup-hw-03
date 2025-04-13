@@ -26,12 +26,12 @@ body {
      max-width: 100%;
      height: auto;
  }
+
 .container {
-    max-width: 100%;
-    width: 1158px;
+    display: flex;
+    max-width: 1158px;
     padding: 0 15px;
-    margin-left: 156px;
-    margin-right: 156px;
+    margin: 0 auto;
 }
 
 /* weblogo */
@@ -44,7 +44,7 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
         margin-right: 76px;
-            padding: 24px 0;
+        padding: 24px 0;
  }
 .weblogotwo {
 font-family: "Raleway", sans-serif;
@@ -55,63 +55,61 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #2e2f42;
     margin-right: 76px;
-        padding: 24px 0;
+    padding: 24px 0;
 }
 /* #region menu nav */
 
-.header {
-    display: flex;
-    border-bottom: 1px solid #e7e9fc;
-       
-}
+.page-header {
+        border-bottom: 1px solid #e7e9fc;
+        width: 1158px;
+        padding: 24px 0;
+    }
 .header-container {
-    width: 1440px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-grow: 1;
-}
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+    }
+
 
 .header-nav {
     display: flex;
     align-items: center;
-    gap: 40px;
-        padding: 25px;
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
 }
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 
 .weblogo logo-header {
     display: flex;
     align-items: center;
-
-
+    margin-right: 76px
 }
 
-.nav-list {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    padding: auto;
-
-}
 
 .contacts-list {
     display: flex;
-    gap: 40px;
+        align-items: center;
+        gap: 40px;
 }
 
 .contacts {
-    color: #434455;
+    
+    font-style: normal;
+    margin-left: auto;
     align-items: center;
-    display: flex;
+    
 }
 .nav-link {
-    color: #2e2f42;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        padding: 24px 0;
+        display: block;
 }
 .nav-link:hover {
     color: #404bbf;
@@ -122,6 +120,11 @@ font-family: "Raleway", sans-serif;
 /* #endregion menu nav */
 /* #region address */
 .contacts-link {
+display: block;
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 .contacts-link:hover {
@@ -130,36 +133,20 @@ font-family: "Raleway", sans-serif;
 .contacts-link:focus {
     color: #404bbf;
 }
-address {
-
-}
 
 /* #endregion address */
 /* #region main Effective Solutions */
-.effective-solutions {
-    padding: 188px 0;
-}
-.effective-solutions__heading {
-    max-width: 496px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    margin: 0 auto;
-    margin-bottom: 48px;
-}
-.container {
+.introduction-container {
     display: block;
+    align-items: center;
+}
+.effective-solutions {
     padding: 188px 0;
         background-color: #2e2f42;
         align-items: center;
         margin: 0 auto;
-}
-
-.effective-solutions {
+    }
+.title {
     max-width: 496px;
         font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -170,9 +157,9 @@ address {
         color: #fff;
         margin: 0 auto;
         margin-bottom: 48px;
-}
-.order-service__button {
-background-color: #4d5ae5;
+    }
+.btn-order {
+    background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -190,12 +177,10 @@ background-color: #4d5ae5;
     border: none;
 }
 
-.order-service__button:hover {
-    background-color: #404bbf;
-}
-
-.order-service__button:focus {
-    background-color: #404bbf;
+.btn-order:hover,
+.btn-order:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
 /* #endregion main Effective Solutions */
 /* #region main solutions */ 
