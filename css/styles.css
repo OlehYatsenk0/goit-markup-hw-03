@@ -27,11 +27,11 @@ body {
      height: auto;
  }
 .container {
-    max-width:100%;
-    padding-left: 0;
-    padding-right: 0;
+    max-width: 100%;
+    width: 1158px;
+    padding: 0 15px;
     margin-left: 156px;
-    margin-right:156px;
+    margin-right: 156px;
 }
 
 /* weblogo */
@@ -43,6 +43,8 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
+            padding: 24px 0;
  }
 .weblogotwo {
 font-family: "Raleway", sans-serif;
@@ -52,6 +54,8 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    margin-right: 76px;
+        padding: 24px 0;
 }
 /* #region menu nav */
 
@@ -132,8 +136,22 @@ address {
 
 /* #endregion address */
 /* #region main Effective Solutions */
-
-.container-solutions {
+.effective-solutions {
+    padding: 188px 0;
+}
+.effective-solutions__heading {
+    max-width: 496px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.container {
     display: block;
     padding: 188px 0;
         background-color: #2e2f42;
@@ -153,7 +171,7 @@ address {
         margin: 0 auto;
         margin-bottom: 48px;
 }
-.button {
+.order-service__button {
 background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -172,14 +190,12 @@ background-color: #4d5ae5;
     border: none;
 }
 
-.button:hover {
-    background-color: #404BBF;
-    color: #FFFFFF;
+.order-service__button:hover {
+    background-color: #404bbf;
 }
 
-.button:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
+.order-service__button:focus {
+    background-color: #404bbf;
 }
 /* #endregion main Effective Solutions */
 /* #region main solutions */ 
