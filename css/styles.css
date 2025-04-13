@@ -213,7 +213,7 @@ display: block;
         margin-bottom: 8px;
 }
  .goals-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
  }
 .goals-list {
 display: flex;
@@ -365,6 +365,10 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background: #2e2f42;
+}
+.weblogotwoo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 
