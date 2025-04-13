@@ -184,24 +184,25 @@ display: block;
 }
 /* #endregion main Effective Solutions */
 /* #region main solutions */ 
-.container-main-Sections {
-     margin: 0 auto;
-}
-
 .solutions {
     padding: 120px 0;
 }
 
+.main-Sections {
+     margin: 0 auto;
+}
+
 .strategy-heading {
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
+    font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        flex-basis: calc((100% - 72px) / 4);
+        margin-bottom: 8px;
 }
-
+ .goals-item {
+     flex-basis: calc((100% - 72px) / 4);
+ }
 .goals-list {
 display: flex;
     gap: 24px;
