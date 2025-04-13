@@ -318,11 +318,15 @@ line-height: 1.5;
 /* #region footer */
 .page-footer {
     background-color: #2e2f42;
+        padding: 100px 0;
 }
 .for-you {
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+        display: block;
+        max-width: 264px;
+    }
 }
 
 .weblogotwoo {
@@ -333,6 +337,10 @@ line-height: 1.5;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 16px;
+
 }
 footer {
 font-family: 'Roboto', sans-serif;
