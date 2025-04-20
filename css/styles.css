@@ -42,6 +42,7 @@ display: flex;
         color: #4d5ae5;
         margin-right: 76px;
         padding: 24px 0;
+        display: inline-block;
  }
 .weblogotwo {
 font-family: "Raleway", sans-serif;
