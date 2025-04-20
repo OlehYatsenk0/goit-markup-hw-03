@@ -325,6 +325,7 @@ line-height: 1.5;
 
 /* #endregion our portfolio */
 /* #region footer */
+
 .page-footer {
     background-color: #2e2f42;
         padding: 100px 0;
@@ -347,13 +348,14 @@ line-height: 1.5;
         color: #f4f4fd;
         text-decoration: none;
         display: inline-block;
-            margin-bottom: 16px;
+        margin-bottom: 16px;
 
 }
 .weblogo {
 display: inline-block;
 margin-bottom: 16px;
 }
+
 footer {
 font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -362,8 +364,4 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background: #2e2f42;
-}
-
-a.weblogo {
-    display: inline-block;
 }
