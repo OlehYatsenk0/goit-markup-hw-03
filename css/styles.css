@@ -15,7 +15,7 @@ body {
         margin: 0;
         padding: 0;
  }
- h1,h2,h3,h4,h5,h6 {
+ h1,h2,h3,h4,h5,h6,p {
     margin: 0;
  }
 
@@ -32,28 +32,16 @@ body {
 
 /* weblogo */
  .weblogo {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        margin-right: 76px;
-        padding: 24px 0;
-        display: inline-block;
  }
 .weblogotwo {
-font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
-    margin-right: 76px;
-    padding: 24px 0;
-    
+color: #2e2f42;
 }
 /* #region menu nav */
 
@@ -80,6 +68,10 @@ font-family: "Raleway", sans-serif;
     padding-left: 0;
 }
 
+.logo-header {
+    padding: 24px 0;
+        margin-right: 76px;
+}
 
 .weblogo .logo-header {
     display: flex;
@@ -338,22 +330,20 @@ line-height: 1.5;
         max-width: 264px;
     }
 
-.weblogotwoo {
+.footer-logo {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 117%;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
         text-decoration: none;
         display: inline-block;
         margin-bottom: 16px;
-
 }
-.weblogo {
-display: inline-block;
-margin-bottom: 16px;
+.weblogotwoo {
+color: #f4f4fd;
 }
 
 footer {
